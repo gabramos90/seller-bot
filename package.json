@@ -1,0 +1,26 @@
+{
+  "name": "seller-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf ./build && tsc",
+    "dev": "nodemon",
+    "start": "node build/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.4.7",
+    "nodemon": "^3.0.1",
+    "rimraf": "^5.0.1",
+    "ts-node": "^10.9.1",
+    "typecript": "^0.0.1-security"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "openai": "^3.3.0",
+    "venom-bot": "^5.0.16"
+  }
+}
